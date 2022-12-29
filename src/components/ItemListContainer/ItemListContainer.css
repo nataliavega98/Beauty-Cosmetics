@@ -1,0 +1,36 @@
+
+.greeting {
+    font-family: 'Yeseva One', cursive;
+    font-size: 24px;
+    color: white;
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+
+    padding: 24px;
+    border-radius: 16px;
+
+    width: 350px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    
+}
+
+.greeting img {
+    
+    height: 200px;
+}
+
+.greeting p {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 24px;
+}

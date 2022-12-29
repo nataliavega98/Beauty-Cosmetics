@@ -1,0 +1,26 @@
+.Cart {
+    color: white;
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.IconCart {
+    position: relative;
+}
+.IconCart i {
+    font-size: 18px;
+}
+
+.IconCart span {
+    background-color: red;
+    box-sizing: content-box;
+    width: 16px;
+    height: 16px;
+    padding: 2px;
+    clip-path: circle(50% at 50% 50%);
+    position: absolute;
+    bottom: 70%;
+    left: 60%;
+    text-align: center;
+}

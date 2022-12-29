@@ -1,0 +1,37 @@
+.NavBar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-sizing: border-box;
+    padding: 32px 72px;
+    height: 96px;
+    width: 100%;
+    position: fixed;
+    transition: background-color 0.5s ease;
+}
+
+.NavBar-top img {
+    height: 54px;
+}
+.NavBar-top:hover{
+    transition: background-color 0.5s ease;
+    background-color: rgba(255, 108, 191, 0.071);
+
+}
+.OptionsNavBar {
+    display: flex;
+    gap: 16px;
+}
+
+.OptionsNavBar li {
+    list-style: none;
+    color: white;
+    font-size: 20px;
+}
+
+.OptionsNavBar li:hover {
+    cursor: pointer;
+    text-decoration: underline solid 1px;
+    text-underline-offset: 6px;
+}
