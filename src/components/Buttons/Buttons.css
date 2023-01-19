@@ -1,36 +1,62 @@
+/* BUTTON PRIMARY */
+.buttonText a, .buttonSecondary a, .buttonPrimary a {
+  text-decoration: none;
+  color: rgb(162, 0, 146);
+}
+
 .buttonPrimary {
-    border: none;
-    background-color: rgba(255, 108, 191, 0.296);
-    color: rgb(162, 0, 146);
-    height: 32px;
-    border-radius: 4px;
-    font-size: 14px;
-    font-variant: small-caps;
-    transition: ease 0.3s all;
-    font-weight: 600;
-  }
-  
-  .buttonPrimary:hover {
-    background-color: black;
-    color: white;
-    transition: ease 0.3s all;
-    cursor: pointer;
-  }
-  
-  .buttonSecondary {
-    border: none;
-    background: none;
-    border: 1.6px solid rgb(162, 0, 146);
-    height: 32px;;
-    color: rgb(162, 0, 146);
-    height: 32px;
-    border-radius: 4px;
-    font-size: 14px;
-    font-variant: small-caps;
-    transition: ease 0.3s all;
-    font-weight: 600;
-  }
-  
-  .buttonSecondary:hover {
-    cursor: pointer;
-  }
+  border: none;
+  background-color: rgba(255, 108, 191, 0.296);
+  color: rgb(162, 0, 146);
+  height: 32px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-variant: small-caps;
+  transition: ease 0.3s all;
+  font-weight: 600;
+}
+
+.buttonPrimary:hover {
+  background-color: black;
+  color: white;
+  transition: ease 0.3s all;
+  cursor: pointer;
+}
+
+/* BUTTON SECONDARY */
+.buttonSecondary {
+  border: none;
+  background: none;
+  border: 1.6px solid rgb(162, 0, 146);
+  color: rgb(162, 0, 146);
+  height: 32px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-variant: small-caps;
+  transition: ease 0.3s all;
+  font-weight: 600;
+}
+
+.buttonSecondary:hover {
+  cursor: pointer;
+}
+
+/* BUTTON TEXT */
+.buttonText {
+  background: none;
+  border: none;
+  height: 32px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-variant: small-caps;
+  transition: ease 0.3s all;
+  font-weight: 600;
+
+
+}
+.buttonText a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+

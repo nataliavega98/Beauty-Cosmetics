@@ -1,0 +1,6 @@
+.itemDetailContainer {
+    padding: 56px 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}

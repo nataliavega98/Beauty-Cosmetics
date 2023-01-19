@@ -1,5 +1,4 @@
 import React from "react";
-
 // Estilado
 import "./Item.css";
 
@@ -7,11 +6,14 @@ import "./Item.css";
 import ItemCount from "../ItemCount/ItemCount";
 import ButtonPrimary from "../Buttons/ButtonPrimary";
 import ButtonSecondary from "../Buttons/ButtonSecondary";
+import ItemDetailContainer from "../ItemDetailContainer/ItemDetailContainer";
+
+import { Link } from "react-router-dom";
 
 const Item = (props) => {
 
-  const { name, image_link, brand, price } = props.data;
-
+  const { name, image_link, brand, price, id } = props.data;
+  
   return (
     <div className="itemCardContainer">
       <img src={image_link || "assets/noimage.png"} alt="" />
@@ -24,7 +26,7 @@ const Item = (props) => {
         <ItemCount />
       </div>
       <ButtonPrimary textButton="add to cart"></ButtonPrimary>
-      <ButtonSecondary textButton="view details"></ButtonSecondary>
+      <ButtonSecondary textButton="view details" pathLink={`/store/product/${id}`}></ButtonSecondary>
     </div>
   );
 };

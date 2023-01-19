@@ -1,0 +1,86 @@
+.cardItemProductContainer {
+  display: flex;
+  gap: 32px;
+  height: 100vh;
+}
+.cardItemProductContainer img {
+  display: flex;
+  width: 450px;
+  height: 450px;
+
+  object-fit: cover;
+  object-position: top;
+  border-radius: 16px;
+}
+
+.frontDataProduct {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 70%;
+}
+.dataProduct {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+
+  width: 100%;
+  height: 227px;
+}
+.titleProduct {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.titleProduct h3 {
+  font-size: 26px;
+}
+.titleProduct p {
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+}
+.productsColorContainer {
+  display: flex;
+  gap: 16px;
+  flex-flow: row wrap;
+  width: 90%;
+
+  height: 110px;
+  align-items: flex-start;
+}
+.productColor {
+  display: flex;
+  width: auto;
+  gap: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 50px;
+}
+.productColorName {
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 50px;
+  font-size: 12px;
+}
+.productColorCircle {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+}
+.descriptionContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.descriptionContainer h6 {
+  font-size: 20px;
+}
+.descriptionContainer h6 {
+  font-size: 20px;
+}
