@@ -1,9 +1,18 @@
 import './ItemListContainer.css'
 import React from 'react'
 
-const ItemListContainer = (prop) => {
+//Componentes
+import CategoryNav from '../CategoryNav/CategoryNav'
+import ItemList from '../ItemList/ItemList'
+const ItemListContainer = () => {
   return (
-    <div className='greeting'><p>Hoy te deseamos un...<span>{prop.greeting}</span></p> <img src={prop.greetimg} alt="Imagen de saludo" /> </div>
+
+    <section className='storeContainer'>
+      <h2>Store</h2>
+      <CategoryNav/>
+      <ItemList/>
+    </section>
+    
   )
 }
 

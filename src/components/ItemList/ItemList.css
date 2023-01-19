@@ -1,0 +1,6 @@
+.itemsCardContainer {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 16px;
+}

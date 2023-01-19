@@ -7,9 +7,10 @@ const NavBar = () => {
     <nav className="NavBar-top">
       <img src="/assets/logowhite.svg" alt="Logo de BeautyItems" />
       <ul className="OptionsNavBar">
-        <li>Productos</li>
-        <li>Cómo comprar</li>
-        <li>Contacto</li>
+        <li>Home</li>
+        <li>Store</li>
+        <li>About Us</li>
+        <li>Contact</li>
       </ul>
       <CartWidget/>
     </nav>

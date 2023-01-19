@@ -1,4 +1,8 @@
+//Estilos
 import "./App.css";
+
+//Secciones
+import Home from "./components/Home/Home";
 import Footer from "./components/Footer/Footer";
 import NavBar from "./components/NavBar/NavBar";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
@@ -10,7 +14,8 @@ function App() {
         <NavBar />
       </header>
       <main>
-        <ItemListContainer greeting="¡Buen día🌞!" greetimg='./assets/cosmetics.png' className="ItemListContainer"/>
+        <Home/>
+        <ItemListContainer/>
       </main>
       <Footer />
     </div>

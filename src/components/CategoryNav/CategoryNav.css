@@ -1,0 +1,31 @@
+.categoryNavContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 32px;
+}
+.categoryNavContainerList {
+  display: flex;
+  gap: 16px;
+  width: auto;
+}
+
+.categoryNavContainer p {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.categoryNavContainer li {
+  text-decoration: none;
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 7px;
+  user-select: none;
+}
+.categoryNavContainer li:hover {
+    background-color: rgba(255, 108, 191, 0.296);
+    color: rgb(162, 0, 146);
+    cursor: pointer;
+}
