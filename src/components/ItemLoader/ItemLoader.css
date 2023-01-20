@@ -1,0 +1,86 @@
+.imageLoader {
+  height: 300px;
+  width: 100%;
+  background-color: #feccd386;
+  border-radius: 7px;
+}
+.buttonLoading {
+  background-color: #feccd386;
+  width: 100%;
+  height: 32px;
+  border-radius: 7px;
+}
+
+.counterLoading {
+  background-color: #feccd386;
+  width: 100%;
+  height: 24px;
+  border-radius: 7px;
+}
+
+.stockLoader,
+.priceLoader,
+.titleLoader h3,
+.titleLoader p {
+  background-color: #feccd386;
+  width: 100%;
+  height: 16px;
+  border-radius: 7px;
+}
+.priceLoader {
+  width: 50%;
+}
+.titleLoader {
+    display: flex;
+    flex-flow: column;
+    gap: 4px;
+    height: 72px;
+}
+.titleLoader p {
+  width: 30%;
+}
+.titleLoader h3 {
+  height: 46px;
+}
+.itemManageLoader {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.itemsLoader {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 16px;
+  width: 100%;
+}
+
+.shinny {
+  background: #feccd386;
+
+  backdrop-filter: blur(5.5px);
+
+  position: relative;
+  overflow: hidden;
+}
+
+.shinny::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  height: 100%;
+  transform: skew(5deg);
+  animation: shine infinite 1.5s ease-in-out;
+}
+@keyframes shine {
+  from {
+    transform: skew(45deg) translateX(0%);
+  }
+
+  to {
+    transform: skew(45deg) translateX(200%);
+  }
+}

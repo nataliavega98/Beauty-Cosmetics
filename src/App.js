@@ -19,7 +19,7 @@ function App() {
         <main>
           <Routes>
             <Route exact path="/" element={<Home/>}></Route>
-            <Route exact path="/store/all" element={<ItemListContainer/>}></Route>
+            <Route exact path="/store" element={<ItemListContainer/>}></Route>
             <Route exact path="/store/product/:productId" element={<ItemDetailContainer/>}></Route>
           </Routes>
         </main>

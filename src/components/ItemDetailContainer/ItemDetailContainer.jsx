@@ -6,27 +6,32 @@ import { useParams } from "react-router-dom";
 //componentes
 import ItemDetail from "../ItemDetail/ItemDetail";
 import ButtonText from "../Buttons/ButtonText";
+import ItemDetailLoader from "../ItemDetailLoader/ItemDetailLoader";
 const ItemDetailContainer = () => {
   //Consigo el ID mediante el parametro
   const { productId } = useParams();
   const [filterProduct, setProductos] = useState([]);
 
   const baseURL = "https://makeup-api.herokuapp.com/api/v1/products.json";
+
+  const [isLoadingProducts, setProductLoader] = useState(true);
+
   //Funcion fetch
   const fetchAPI = async () => {
     try {
+      setProductLoader(true);
+
       const response = await fetch(baseURL);
-      console.log(response)
       const data = await response.json();
 
       // Filtro
-      console.log(data)
       const filterProduct = data.find(product => product.id == `${productId}`)
-      console.log({filterProduct})
       //Seteo los productos con un item para cada uno
       setProductos(
         <ItemDetail key={filterProduct.id} data={filterProduct}></ItemDetail>
       );
+      setProductLoader(false);
+
     } catch (err) {
       console.log(err);
     }
@@ -41,7 +46,8 @@ const ItemDetailContainer = () => {
   return (
     <section className="itemDetailContainer">
       <ButtonText textButton="go back to the store" pathLink="/store" icon="fa-solid fa-arrow-left"></ButtonText>
-      {filterProduct}
+      {isLoadingProducts ? <ItemDetailLoader/> : filterProduct}
+      
     </section>
   );
 };

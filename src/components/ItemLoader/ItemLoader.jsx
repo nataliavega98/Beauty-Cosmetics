@@ -3,18 +3,127 @@ import React from "react";
 import "./ItemLoader.css";
 const ItemLoader = () => {
   return (
-    <div className="itemCardContainer">
-      <img src="assets/noimage.png" alt="" />
-      <div className="titleContainer">
-        <h3></h3>
-        <p></p>
+    <div className="itemsLoader">
+      {/* CardLoader */}
+      <div className="itemCardContainer">
+        <div className="imageLoader shinny"></div>
+        <div className="titleLoader">
+          <h3 className="shinny"></h3>
+          <p className="shinny"></p>
+        </div>
+        <p className="priceLoader shinny"></p>
+        <div className="itemManageLoader">
+          <div className="counterLoading shinny"></div>
+          <p className="stockLoader shinny"></p>
+        </div>
+        <div className="buttonLoading shinny"></div>
+        <div className="buttonLoading shinny"></div>
       </div>
-      <div className="itemManageContainer">
-        <p></p>
-        <div></div>
+      {/* CardLoader */}
+      <div className="itemCardContainer">
+        <div className="imageLoader shinny"></div>
+        <div className="titleLoader">
+          <h3 className="shinny"></h3>
+          <p className="shinny"></p>
+        </div>
+        <p className="priceLoader shinny"></p>
+        <div className="itemManageLoader">
+          <div className="counterLoading shinny"></div>
+          <p className="stockLoader shinny"></p>
+        </div>
+        <div className="buttonLoading shinny"></div>
+        <div className="buttonLoading shinny"></div>
       </div>
-      <div> </div>
-      <div> </div>
+      {/* CardLoader */}
+      <div className="itemCardContainer">
+        <div className="imageLoader shinny"></div>
+        <div className="titleLoader">
+          <h3 className="shinny"></h3>
+          <p className="shinny"></p>
+        </div>
+        <p className="priceLoader shinny"></p>
+        <div className="itemManageLoader">
+          <div className="counterLoading shinny"></div>
+          <p className="stockLoader shinny"></p>
+        </div>
+        <div className="buttonLoading shinny"></div>
+        <div className="buttonLoading shinny"></div>
+      </div>
+      {/* CardLoader */}
+      <div className="itemCardContainer">
+        <div className="imageLoader shinny"></div>
+        <div className="titleLoader">
+          <h3 className="shinny"></h3>
+          <p className="shinny"></p>
+        </div>
+        <p className="priceLoader shinny"></p>
+        <div className="itemManageLoader">
+          <div className="counterLoading shinny"></div>
+          <p className="stockLoader shinny"></p>
+        </div>
+        <div className="buttonLoading shinny"></div>
+        <div className="buttonLoading shinny"></div>
+      </div>
+      {/* CardLoader */}
+      <div className="itemCardContainer">
+        <div className="imageLoader shinny"></div>
+        <div className="titleLoader">
+          <h3 className="shinny"></h3>
+          <p className="shinny"></p>
+        </div>
+        <p className="priceLoader shinny"></p>
+        <div className="itemManageLoader">
+          <div className="counterLoading shinny"></div>
+          <p className="stockLoader shinny"></p>
+        </div>
+        <div className="buttonLoading shinny"></div>
+        <div className="buttonLoading shinny"></div>
+      </div>
+      {/* CardLoader */}
+      <div className="itemCardContainer">
+        <div className="imageLoader shinny"></div>
+        <div className="titleLoader">
+          <h3 className="shinny"></h3>
+          <p className="shinny"></p>
+        </div>
+        <p className="priceLoader shinny"></p>
+        <div className="itemManageLoader">
+          <div className="counterLoading shinny"></div>
+          <p className="stockLoader shinny"></p>
+        </div>
+        <div className="buttonLoading shinny"></div>
+        <div className="buttonLoading shinny"></div>
+      </div>
+      {/* CardLoader */}
+      <div className="itemCardContainer">
+        <div className="imageLoader shinny"></div>
+        <div className="titleLoader">
+          <h3 className="shinny"></h3>
+          <p className="shinny"></p>
+        </div>
+        <p className="priceLoader shinny"></p>
+        <div className="itemManageLoader">
+          <div className="counterLoading shinny"></div>
+          <p className="stockLoader shinny"></p>
+        </div>
+        <div className="buttonLoading shinny"></div>
+        <div className="buttonLoading shinny"></div>
+      </div>
+      {/* CardLoader */}
+      <div className="itemCardContainer">
+        <div className="imageLoader shinny"></div>
+        <div className="titleLoader">
+          <h3 className="shinny"></h3>
+          <p className="shinny"></p>
+        </div>
+        <p className="priceLoader shinny"></p>
+        <div className="itemManageLoader">
+          <div className="counterLoading shinny"></div>
+          <p className="stockLoader shinny"></p>
+        </div>
+        <div className="buttonLoading shinny"></div>
+        <div className="buttonLoading shinny"></div>
+      </div>
     </div>
   );
 };

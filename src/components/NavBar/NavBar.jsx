@@ -15,7 +15,7 @@ const NavBar = () => {
       <img src="/assets/logowhite.svg" alt="Logo de BeautyItems" />
       <ul className="OptionsNavBar">
         <li><Link to='/' className="navOption">home</Link></li>
-        <li><Link to='/store/all' className="navOption">store</Link></li>
+        <li><Link to='/store' className="navOption">store</Link></li>
         <li><Link to='/aboutus' className="navOption">about us</Link></li>
         <li><Link to='/contact' className="navOption">contact</Link></li>
       </ul>

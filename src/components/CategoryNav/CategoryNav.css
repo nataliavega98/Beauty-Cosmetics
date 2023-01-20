@@ -16,6 +16,7 @@
 }
 
 .categoryNavContainer li {
+  font-variant: small-caps;
   text-decoration: none;
   list-style: none;
   font-weight: 400;
@@ -23,8 +24,9 @@
   padding: 8px 16px;
   border-radius: 7px;
   user-select: none;
+
 }
-.categoryNavContainer li:hover {
+.categoryNavContainer li:hover, .filterSelected {
     background-color: rgba(255, 108, 191, 0.296);
     color: rgb(162, 0, 146);
     cursor: pointer;
