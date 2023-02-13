@@ -6,7 +6,7 @@ const ButtonSecondary = (props) => {
     console.log(pathLink)
 
   return (
-    <button className="buttonSecondary"><Link to={pathLink}>{textButton}</Link></button>
+    <Link to={pathLink} className="linkContainer"><button className="buttonSecondary">{textButton}</button></Link>
     )
 }
 export default ButtonSecondary

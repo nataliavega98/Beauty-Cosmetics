@@ -53,6 +53,7 @@
   flex-flow: row wrap;
   gap: 16px;
   width: 100%;
+  justify-content: center;
 }
 
 .shinny {

@@ -28,6 +28,9 @@
 }
 
 /* BUTTON SECONDARY */
+/* .linkContainer {
+  width: 100%;
+} */
 .buttonSecondary {
   border: none;
   background: none;
@@ -39,6 +42,7 @@
   font-variant: small-caps;
   transition: ease 0.3s all;
   font-weight: 600;
+  width: 100%;
 }
 
 .buttonSecondary:hover {
