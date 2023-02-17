@@ -3,7 +3,7 @@ import React from "react";
 import "./ItemDetailLoader.css";
 const ItemDetailLoader = () => {
   return (
-    <article className="cardItemProductContainer">
+    <article className="cardItemProductContainerLoader">
       <div className="imageDetailLoader shinny"></div>
       <div className="frontDataProduct">
         <div className="dataProduct">

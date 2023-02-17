@@ -3,11 +3,14 @@
   display: flex;
   justify-content: space-between;
   padding: 24px 32px;
+  flex-direction: column;
+  gap: 24px;
 }
 .categoryNavContainerList {
   display: flex;
   gap: 16px;
   width: auto;
+  flex-flow: row wrap;
 }
 
 .categoryNavContainer p {
@@ -21,13 +24,15 @@
   list-style: none;
   font-weight: 400;
   font-size: 16px;
-  padding: 8px 16px;
+  padding: 8px;
   border-radius: 7px;
   user-select: none;
-
+  text-align: center;
+  flex: 0 1 82px;
 }
-.categoryNavContainer li:hover, .filterSelected {
-    background-color: rgba(255, 108, 191, 0.296);
-    color: rgb(162, 0, 146);
-    cursor: pointer;
+.categoryNavContainer li:hover,
+.filterSelected {
+  background-color: rgba(255, 108, 191, 0.296);
+  color: rgb(162, 0, 146);
+  cursor: pointer;
 }

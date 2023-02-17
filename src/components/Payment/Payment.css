@@ -1,0 +1,81 @@
+.payment-container {
+  padding: 24px 72px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.payment-container > button {
+  width: fit-content;
+}
+
+.payment-resume-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.payment-container h3 {
+  font-size: 20px;
+}
+
+.buyerData-form-container h4,
+.cartData-container h4, .paymentData-form-container h4 {
+  font-size: 14px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.buyerData-form-container h4 > span,
+.cartData-container h4 > span, .paymentData-form-container h4 > span {
+  padding: 8px;
+  width: 24px;
+  height: 24px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #a20092;
+}
+
+.buyerData-form-container, .cartData-container, .paymentData-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-container {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+
+.form-container > input, select, select > option{
+  max-width: 300px;
+  height: 32px;
+  padding: 8px;
+  border-radius: 7px;
+  
+  border: 1px solid #9d31d300;
+}
+
+.form-container input:focus-visible, select:focus {
+  color: black;
+  outline: none;
+  border: 1px solid #b535f6;
+
+}
+
+.itemsCart-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cartData-container p {
+    background-color: white;
+    padding: 8px;
+    border-radius: 7px;
+}

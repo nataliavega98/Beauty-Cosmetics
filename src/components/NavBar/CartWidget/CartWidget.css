@@ -3,6 +3,10 @@
     display: flex;
     gap: 8px;
     cursor: pointer;
+    width: 160px;
+    padding-right: 72px;
+    
+
 }
 
 .IconCart {
@@ -22,5 +26,8 @@
     position: absolute;
     bottom: 70%;
     left: 60%;
-    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

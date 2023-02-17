@@ -4,15 +4,15 @@
   align-items: center;
 
   box-sizing: border-box;
-  padding: 32px 72px;
   height: 72px;
   width: 100%;
-  background-color: rgba(255, 108, 191, 0.5);
+  background-color: #ffb0ce;
   transition: background-color 0.5s ease;
 }
 
-.NavBar-top img {
+.NavBar-top > img {
   height: 54px;
+  padding-left: 72px;
 }
 .NavBar-top:hover {
   transition: background-color 0.5s ease;
@@ -35,4 +35,30 @@ font-variant: small-caps;}
   cursor: pointer;
   text-decoration: underline solid 1px;
   text-underline-offset: 6px;
+}
+
+.hamburgerIcon {
+  display: none;
+  cursor: pointer;
+}
+
+
+@media (max-width: 720px) {
+
+  .hamburgerIcon {
+    display: inline;
+    margin-left: 15px;
+  }
+
+  .OptionsNavBar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 70px;
+    left: 0px;
+    background-color: #ffb0ce;
+    height: 100vh;
+    padding: 15px;
+    padding-right: 50px;
+  }
 }

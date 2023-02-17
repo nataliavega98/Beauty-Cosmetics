@@ -3,9 +3,33 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div className="contactContainer">
-      {" "}
-      <h3>Contact</h3>
-      <p>+54 9 11 2211445588</p>
+      <p>
+        Follow us on our social media pages to join our community and engage
+        with other like-minded individuals.
+      </p>
+      <p>You can find us on the following social media platforms:</p>
+      <div className="socialMedia">
+        <i className="fa-brands fa-facebook"></i>
+        <p>Facebook: Beauty Cosmetics </p>
+      </div>
+      <div className="socialMedia">
+        <i className="fa-brands fa-instagram"></i>
+        <p>Instagram: Beauty Cosmetics </p>
+      </div>
+      <div className="socialMedia">
+        <i className="fa-brands fa-twitter"></i>
+        <p>Twitter: Beauty Cosmetics </p>
+      </div>
+      <div className="socialMedia">
+        <i className="fa-brands fa-youtube"></i>
+        <p>Youtube: Beauty Cosmetics </p>
+      </div>
+
+      <p>
+        We love hearing from our customers and appreciate your support on social
+        media. Follow us to stay in the loop on all things Beauty Cosmetics.
+        <i className="fa-solid fa-heart"></i>
+      </p>
     </div>
   );
 };

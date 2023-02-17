@@ -7,7 +7,7 @@ const ButtonText = (props) => {
 
   return (
     <button className="buttonText">
-      <Link to={pathLink}><i class={icon}/>{textButton}</Link>
+      <Link to={pathLink}><i className={icon}/>{textButton}</Link>
     </button>
   );
 };

@@ -1,0 +1,36 @@
+.sumarryPurchase-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px 72px;
+  min-height: calc(100vh - 70px - 72px);
+}
+
+.priceTotal,
+.orderNumber {
+  background-color: white;
+  padding: 8px;
+  border-radius: 7px;
+}
+
+.orderNumber span {
+  color: #00d900;
+}
+
+.renderItems {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.orderErrorImg {
+  max-width: 450px;
+  max-height: 450px;
+}
+
+.orderErrortitle {
+    color: rgb(255 75 75);
+    background-color: white;
+    padding: 8px;
+    border-radius: 7px;
+}

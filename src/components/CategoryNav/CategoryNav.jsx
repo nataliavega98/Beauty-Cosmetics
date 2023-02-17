@@ -22,7 +22,7 @@ const CategoryNav = (props) => {
       <ul className="categoryNavContainerList">
         {/* //Mapeo un buttonFilter por cada categoria */}
         {categories.map((category) => (
-          <ButtonFilter
+          <ButtonFilter key={category}
             nameCategory={category}
             setterCategorySelected={setterCategorySelected}
             categorySelected={categorySelected}

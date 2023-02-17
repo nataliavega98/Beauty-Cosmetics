@@ -1,32 +1,24 @@
-import React from "react";
 //Modulos
-import { useState } from "react";
+import React from "react";
 //Estilos
 import "./ItemCount.css";
 
-const ItemCount = () => {
-  //Funcion numero random para el stock
-  function getRandomStockNumber() {
-    return Math.floor(Math.random() * (100 - 1 + 1) + 1);
-  }
+const ItemCount = (props) => {
+  const { stock, numberCounter, setterCounter } = props;
 
-  //Guardo mi numero random para la card, como no lo seteo queda igual
-  const [number, setNumberStock] = useState(getRandomStockNumber());
-
-  //
-  const [count, setCount] = useState(0);
+  
 
   //Funciones de sumar uno con un maximo de sock
   const addOne = () => {
-    if (count < number) {
-      setCount(count + 1);
+    if (numberCounter < stock) {
+      setterCounter(numberCounter + 1);
     }
   };
 
   //Funcion de restar uno al contador seteando un minimo
   const disOne = () => {
-    if (count > 0) {
-      setCount(count - 1);
+    if (numberCounter > 0) {
+      setterCounter(numberCounter - 1);
     }
   };
 
@@ -34,10 +26,10 @@ const ItemCount = () => {
     <div className="counterContainer">
       <div className="countContainer">
         <button onClick={disOne}>-</button>
-        <p>{count}</p>
+        <p>{numberCounter}</p>
         <button onClick={addOne}>+</button>
       </div>
-      <small>({number} available)</small>
+      <small>({stock} available)</small>
     </div>
   );
 };

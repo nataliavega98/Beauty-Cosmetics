@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Buttons.css"
 import { Link } from 'react-router-dom'
-const ButtonPrimary = (props) => {
+const ButtonDisabledPrimary = (props) => {
     const {textButton, pathLink, icon, onClick} = props
     const isClickeable = () => {
       if(onClick) {
@@ -10,7 +10,7 @@ const ButtonPrimary = (props) => {
 
     }
   return (
-    <Link to={pathLink} className="linkContainer" onClick={() => isClickeable()}><button className="buttonPrimary"><i className={icon}/>{textButton}</button></Link>
+    <Link to={pathLink} className="linkContainer" onClick={() => isClickeable()}><button className="ButtonDisabledPrimary"><i className={icon}/>{textButton}</button></Link>
     )
 }
-export default ButtonPrimary
+export default ButtonDisabledPrimary

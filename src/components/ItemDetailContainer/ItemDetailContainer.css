@@ -4,4 +4,9 @@
     flex-direction: column;
     gap: 32px;
     width: 100%;
+    min-height: calc(100vh - 185px - 72px);
+}
+
+.itemDetailContainer .buttonText {
+    width: fit-content;
 }

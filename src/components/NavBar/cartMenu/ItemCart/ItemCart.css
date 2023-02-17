@@ -1,0 +1,61 @@
+.itemCart-container {
+  display: flex;
+  grid-gap: 16px;
+  gap: 16px;
+  width: 100%;
+  background-color: white;
+  border-radius: 7px;
+  padding: 16px;
+  align-items: center;
+}
+
+.itemCart-container img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.itemInfo-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 70%;
+}
+
+.namePrice {
+  display: flex;
+  flex-direction: column;
+
+  gap: 8px;
+}
+
+.namePrice h5 {
+  font-size: 14px;
+}
+
+.namePrice p {
+  font-size: 14px;
+  display: flex;
+  gap: 8px;
+}
+
+.quantityDelete {
+  font-size: 14px;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantityDelete i {
+  color: #ff3560;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

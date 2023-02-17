@@ -1,10 +1,9 @@
 import React from 'react'
 
-
 import "./Home.css"
 
-
 const Home = () => {
+
   return (
     <section className="homeContainer">
       <h1>BEAUTY COSMETICS</h1>
